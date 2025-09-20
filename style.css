@@ -1,0 +1,119 @@
+body
+{
+    background-color: black;
+} 
+h1{
+    position: absolute;
+    top: 2rem;
+    left: 37.5rem;
+    color: white;
+}
+p{
+     position: absolute;
+    top: 15rem;
+    left: 46rem;
+    color: white;  
+}
+.output{
+    position: absolute;
+    top: 8rem;
+    left: 35rem;
+    border: 2px white solid;
+    height: 5rem;
+    width: 30rem;
+}
+   .whole-keyboard {
+        position: absolute;
+        top: 18rem;
+        left: 16rem;
+      background: #222;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .keyboard {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .row {
+      display: flex;
+      gap: 5px;
+    }
+    .key,.esc, .delete  {
+      background: #555;
+      color: white;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 6px;
+      font-size: 14px;
+      width: 50px;
+      height: 40px;
+      user-select: none;
+    }
+
+   /* Special wider keys */
+    .esc, .delete { width: 55px; 
+       height: 35px;
+}
+    .backspace { width: 100px; }
+    .tab, .slash { width: 74.5px; }
+    .caps { width: 97px; }
+    .enter { width: 107px; }
+    .shift { width: 129.5px; }
+    .space { width: 285px; }
+    .ctrl, .alt, .fn ,.pg { width: 54.8px; }
+
+ #first-row .key{
+    height: 35px;
+    width: 45px;
+ } 
+ .nl,.slash2,.star,.minus2,.seven,.eight,.nine,.plus{
+    width: 45px;
+ }
+ .zero{
+    width: 94.8px;
+ }
+ .plus2{
+   position: absolute;
+    top: 7.2rem;
+    left: 61.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    color: white;
+    height: 90px;
+    width: 45px;
+    border-radius: 5px;
+
+ }
+ .enter2{
+    position: absolute;
+    top: 13.4rem;
+    left: 61.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    color: white;
+    height: 90px;
+    width: 45px;
+    border-radius: 5px;
+ }
+ .output {
+    position: absolute;
+    top: 8rem;
+    left: 35rem;
+    border: 2px white solid;
+    height: 5rem;
+    width: 30rem;
+    color: white;          
+    font-size: 20px;       
+    padding: 10px;         
+    white-space: pre-wrap; 
+    overflow-y: auto;      
+}
+
+
